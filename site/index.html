@@ -1,9 +1,76 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
 <head>
-	<title>Hello Coursera!</title>
+  <meta charset="utf-8">
+  <title>Pseudo Class Selectors</title>
+  <link rel="stylesheet" type="text/css" href="external.css">
+  <style>
+  	header li {
+  		list-style: none;
+  	}
+a:link, a:visited {
+	text-decoration: none;
+	background-color: green;
+	border: 1px solid blue;
+	color: black;
+	display: block;
+	width: 300px;
+	text-align: center;
+	margin-bottom: 1px;
+}
+
+a:hover, a:active {
+	background-color: red;
+	color: orange;
+}
+
+header li:nth-child(3) {
+	font-size: 24px;
+}
+
+section div:nth-child(odd) {
+	background-color: gray;
+}
+
+section div:nth-child(4):hover {
+	background-color: red;
+	cursor: pointer;
+}
+
+  </style>
 </head>
 <body>
-<h1> Hello Coursera! It's alright, the introduction video kinda sucks because it is not updated</h1>
+<h1>Psuedo Class Selectors</h1>
+
+<header>
+	<ul>
+		<li><a href="/">Home</a></li>
+		<li><a href="https://www.gwern.net/docs/iq/2021-willoughby.pdf" target="_blank">Google File</a></li>
+		<li><a href="https://www.newyorker.com/magazine/2002/02/11/the-real-heroes-are-dead" target="_blank">Article from the New Yorker</a></li>
+	</ul>
+</header>
+
+<section>
+	<div>DIV 1</div>
+	<div>DIV 2</div>
+	<div>DIV 3</div>
+	<div>DIV 4</div>
+	<div>DIV 5</div>
+	<div>DIV 6</div>
+	<div>DIV 7</div>
+	<div>DIV 8</div>
+	<div>DIV 9</div>
+	<div>DIV 10</div>
+	<div>DIV 11</div>
+	<div>DIV 12</div>
+	<div>DIV 13</div>
+	<div>DIV 14</div>
+	<div>DIV 15</div>
+	<div>DIV 16</div>
+	<div>DIV 17</div>
+	<div>DIV 18</div>
+	<div>DIV 19</div>
+	<div>DIV 20</div>
+</section>
 </body>
 </html>
